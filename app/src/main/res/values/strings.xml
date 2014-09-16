@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stone</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="source_loading">Searching source</string>
+    <string name="quality_360">极 速</string>
+    <string name="quality_480">流 畅</string>
+    <string name="quality_640">标 清</string>
+    <string name="quality_720">高 清</string>
+    <string name="quality_1280">超 清</string>
+    <string name="quality_1920">蓝 光</string>
+    <string name="player_error_0">未知异常</string>
+    <string name="player_error_1">服务器启动失败</string>
+    <string name="player_error_2">影片播放地址不正确</string>
+    <string name="player_error_3">服务器返回错误格式数据</string>
+    <string name="player_error_4">服务器返回数据为空</string>
+    <string name="player_error_5">服务器检测失败</string>
+    <string name="player_error_6">抱歉，该源的节目不能正常播放</string>
+    <string name="player_error_7">没有本集节目哦</string>
+    <string name="player_error_8">抱歉，没有找到可以播放的源</string>
+    <string name="player_error_9">抱歉，服务器异常</string>
+    <string name="about_title">About Stone</string>
+    <string name="about_body">
+<![CDATA[
+        Made in New York by Roman Nurik. <i>Muzei</i> is a transliteration of the Russian word
+        <a href="http://translate.google.com/#en/ru/museum"><i>музей</i></a>, which means
+        &#8220;museum.&#8221;<br><br>
+
+        Copyright 2013&ndash;2014 Google Inc.<br>
+        All Rights Reserved.<br><br>
+
+        <a href="http://m.google.com/utos">Terms of Service</a>,
+        <a href="http://www.google.com/policies/privacy/">Privacy Policy</a>&nbsp;<br><br>
+
+        Many thanks to these open source projects:<br><br>
+
+        <b><a href="http://square.github.io/okhttp/">OkHttp</a> and <a href="http://square.github.io/picasso/">Picasso</a>&nbsp;</b><br>
+        <i>by Square</i><br><br>
+
+        <b><a href="https://github.com/greenrobot/EventBus">EventBus</a>&nbsp;</b><br>
+        <i>by greenrobot</i><br><br>
+
+        <b><a href="https://github.com/GLWallpaperService/GLWallpaperService">GLWallpaperService</a>&nbsp;</b><br>
+        <i>by Robert Green, Mark F. Guerra, and others</i><br><br>
+    ]]>
+    </string>
+    <string name="about_version_template">v%1$s</string>
+    <string name="title_activity_video_view">VideoViewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

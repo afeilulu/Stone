@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afeilulu.stone" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".StoneApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Base.Overlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SourceEpisodeActivity"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Holo.Dialog.MinWidth" />
+        <activity
+            android:name=".PlayerActivity"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".settings.AboutActivity"
+            android:label="@string/about_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".VideoViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_video_view"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black">
+
+    <com.afeilulu.stone.widget.TappableSurfaceView
+        android:id="@+id/surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <!--<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.9">
+
+        <ImageView
+            android:id="@+id/media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ic_media_pause"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/where_you_go"
+            style="@style/Text_Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/media"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/waiting"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/bottom_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <cn.com.xinli.metro.doudian.widget.TransparentThumbSeekBar
+                android:id="@+id/timeline"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0px"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:progressDrawable="@drawable/player_progress_yellow"
+                android:thumb="@drawable/transparent"
+                android:thumbOffset="2dp" />
+
+            <TextView
+                android:id="@+id/duration"
+                style="@style/Text_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/progress_text"
+            style="@style/Text_Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_panel"
+            android:layout_marginBottom="-5dp"
+            android:background="@drawable/progress_text_bg"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+    </RelativeLayout>-->
+</FrameLayout>
